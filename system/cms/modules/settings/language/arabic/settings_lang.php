@@ -73,14 +73,14 @@ $lang['settings:rss_feed_items_desc'] 			= 'كم عنصراً تريد عرضه�
 $lang['settings:enable_profiles'] 				= 'تمكين الملفات الشخصية';
 $lang['settings:enable_profiles_desc'] 			= 'تمكين المستخدمين من إضافة وتعديل ملفّاتهم الشخصيّة.';
 
-$lang['settings:ga_email'] 						= 'البريد الإلكتروني المرتبط بخدمة إحصائيات جوجل.';
-$lang['settings:ga_email_desc']					= 'عنوان البريد الإلكتروني المستخدم لخدمة إحصائيات جوجل. نحتاج لهذه المعلومة لعرض الرسم البياني في لوحة التحكم.';
+$lang['settings:ga_email']					= 'Google API Service Account E-mail';
+$lang['settings:ga_email_desc']					= 'API Service Account E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
 
-$lang['settings:ga_password'] 					= 'كلمة مرور خدمة إحصائيات جوجل';
-$lang['settings:ga_password_desc']				= 'كلمة مرور خدمة إحصائيات جوجل. نحتاج لهذه المعلومة أيضاً لعرض الرسم البياني في لوحة التحكم.';
+$lang['settings:ga_password']					= 'Google API Key Path';
+$lang['settings:ga_password_desc']				= 'Google API Key. This is also needed to show the graph on the dashboard. You will need to login to your Google Developers Console, and obtain a .p12 key file. Refer to <a href="https://github.com/pyrocms/pyrocms/issues/3491" target="_blank">This Issue for details</a>';
 
-$lang['settings:ga_profile'] 					= 'سجلّ خدمة إحصائيات جوجل';
-$lang['settings:ga_profile_desc']				= 'مُعرّف السجل لهذا الموقع في خدمة إحصائيات جوجل.';
+$lang['settings:ga_profile']					= 'Google View ID';
+$lang['settings:ga_profile_desc']				= 'View ID for this website in Google Analytics.';
 
 $lang['settings:ga_tracking'] 					= 'رمز تتبّع جوجل';
 $lang['settings:ga_tracking_desc']				= 'أدخل رمز تتبع خدمة إحصائيات جوجل لتفعيل عرض بيانات الخدمة. مثال: UA-19483569-6';

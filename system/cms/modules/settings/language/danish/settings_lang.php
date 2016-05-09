@@ -74,14 +74,14 @@ $lang['settings:rss_feed_items_desc']			= 'Hvor mange poster skal vi vise i RSS/
 $lang['settings:enable_profiles']				= 'Slå profiler til';
 $lang['settings:enable_profiles_desc']			= 'Tillad at brugere tilføjer og redigerer profiler.';
 
-$lang['settings:ga_email']						= 'Google Analytic E-mail';
-$lang['settings:ga_email_desc']					= 'E-mail addressen som bruges til  Google Analytics. Nødvendig for at vise en graf på panelet.';
+$lang['settings:ga_email']					= 'Google API Service Account E-mail';
+$lang['settings:ga_email_desc']					= 'API Service Account E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
 
-$lang['settings:ga_password']					= 'Google Analytic Kodeord';
-$lang['settings:ga_password_desc']				= 'Google Analytics kodeord. Denne er også nødvendig for at vise en graf på panelet.';
+$lang['settings:ga_password']					= 'Google API Key Path';
+$lang['settings:ga_password_desc']				= 'Google API Key. This is also needed to show the graph on the dashboard. You will need to login to your Google Developers Console, and obtain a .p12 key file. Refer to <a href="https://github.com/pyrocms/pyrocms/issues/3491" target="_blank">This Issue for details</a>';
 
-$lang['settings:ga_profile']					= 'Google Analytic Profil';
-$lang['settings:ga_profile_desc']				= 'Profil-ID for dette website i Google Analytics.';
+$lang['settings:ga_profile']					= 'Google View ID';
+$lang['settings:ga_profile_desc']				= 'View ID for this website in Google Analytics.';
 
 $lang['settings:ga_tracking']					= 'Google Sporingskode';
 $lang['settings:ga_tracking_desc']				= 'Indtast din Google Analytic Sporingskode for at aktivere Google Analytics data indfangelse. F.eks.: UA-19483569-6';

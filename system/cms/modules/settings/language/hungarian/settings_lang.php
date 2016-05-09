@@ -71,14 +71,14 @@ $lang['settings:rss_feed_items_desc']               = 'Hány bejegyzés jelenjen
 $lang['settings:enable_profiles']                   = 'Profilok bekapcsolása';
 $lang['settings:enable_profiles_desc']              = 'Saját profil engedélyezése a felhasználók számára.';
 
-$lang['settings:ga_email']                          = 'Google Analytics E-mail';
-$lang['settings:ga_email_desc']                     = 'A Google Analytics fiók, e-mail címe. Ennek segítéségvel jelennek meg a műszerfalon a látogatási statisztikák';
+$lang['settings:ga_email']					= 'Google API Service Account E-mail';
+$lang['settings:ga_email_desc']					= 'API Service Account E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
 
-$lang['settings:ga_password']                       = 'Google Analytics Jelszó';
-$lang['settings:ga_password_desc']                  = 'Szükséges megadni ahhoz, hogy megjelenjenek a látogatói statisztikák a weboldalon.';
+$lang['settings:ga_password']					= 'Google API Key Path';
+$lang['settings:ga_password_desc']				= 'Google API Key. This is also needed to show the graph on the dashboard. You will need to login to your Google Developers Console, and obtain a .p12 key file. Refer to <a href="https://github.com/pyrocms/pyrocms/issues/3491" target="_blank">This Issue for details</a>';
 
-$lang['settings:ga_profile']                        = 'Google Analytics Profil';
-$lang['settings:ga_profile_desc']                   = 'Profil azonosító a weboldalhoz.';
+$lang['settings:ga_profile']					= 'Google View ID';
+$lang['settings:ga_profile_desc']				= 'View ID for this website in Google Analytics.';
 
 $lang['settings:ga_tracking']                       = 'Google Követési kód';
 $lang['settings:ga_tracking_desc']                  = 'Itt lehet megadni a Google Analytics követési kódját, aminek segítségével aktiválható az adatok rögzítése. pl: UA-19483569-6';

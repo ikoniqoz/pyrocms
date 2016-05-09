@@ -81,14 +81,14 @@ $lang['settings:rss_feed_items_desc']					= 'Какое количество з�
 $lang['settings:enable_profiles']						= 'Разрешить профили';
 $lang['settings:enable_profiles_desc']				= 'Разрешить пользователям добавлять и редактировать профили.';
 
-$lang['settings:ga_email']									= 'E-mail Google Analytic';
-$lang['settings:ga_email_desc']								= 'Адрес E-mail для Google Analytics, нужно указать, если вы хотите видеть график посещаемости на главной странице панели администратора.';
+$lang['settings:ga_email']					= 'Google API Service Account E-mail';
+$lang['settings:ga_email_desc']					= 'API Service Account E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
 
-$lang['settings:ga_password']								= 'Пароль Google Analytic';
-$lang['settings:ga_password_desc']						= 'Пароль Google Analytics. Тоже нужно указать, для отображения графика.';
+$lang['settings:ga_password']					= 'Google API Key Path';
+$lang['settings:ga_password_desc']				= 'Google API Key. This is also needed to show the graph on the dashboard. You will need to login to your Google Developers Console, and obtain a .p12 key file. Refer to <a href="https://github.com/pyrocms/pyrocms/issues/3491" target="_blank">This Issue for details</a>';
 
-$lang['settings:ga_profile']								= 'Профиль Google Analytic';
-$lang['settings:ga_profile_desc']							= 'ID профиля этого сайта в Google Analytics.';
+$lang['settings:ga_profile']					= 'Google View ID';
+$lang['settings:ga_profile_desc']				= 'View ID for this website in Google Analytics.';
 
 $lang['settings:ga_tracking'] 							= 'Код отслеживания Google Tracking';
 $lang['settings:ga_tracking_desc']						= 'Укажите код отслеживания Google Analytic для активации учёта посетителей вашего сайта. Например: UA-19483569-6';

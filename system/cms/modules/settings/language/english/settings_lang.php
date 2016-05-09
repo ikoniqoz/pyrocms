@@ -71,14 +71,14 @@ $lang['settings:rss_feed_items_desc']			= 'How many items should we show in RSS/
 $lang['settings:enable_profiles']				= 'Enable profiles';
 $lang['settings:enable_profiles_desc']			= 'Allow users to add and edit profiles.';
 
-$lang['settings:ga_email']						= 'Google Analytic E-mail';
-$lang['settings:ga_email_desc']					= 'E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
+$lang['settings:ga_email']					= 'Google API Service Account E-mail';
+$lang['settings:ga_email_desc']					= 'API Service Account E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
 
-$lang['settings:ga_password']					= 'Google Analytic Password';
-$lang['settings:ga_password_desc']				= 'Google Analytics password. This is also needed to show the graph on the dashboard. You will need to allow access to Google to get this to work. See <a href="https://accounts.google.com/b/0/IssuedAuthSubTokens?hl=en_US" target="_blank">Authorized Access to your Google Account</a>';
+$lang['settings:ga_password']					= 'Google API Key Path';
+$lang['settings:ga_password_desc']				= 'Google API Key. This is also needed to show the graph on the dashboard. You will need to login to your Google Developers Console, and obtain a .p12 key file. Refer to <a href="https://github.com/pyrocms/pyrocms/issues/3491" target="_blank">This Issue for details</a>';
 
-$lang['settings:ga_profile']					= 'Google Analytic Profile';
-$lang['settings:ga_profile_desc']				= 'Profile ID for this website in Google Analytics. Look in the URL when signed into Google Analytics for something that looks like "pXXXXXXXX". The, "<em>XXXXXXXX</em>" is the profile ID. ';
+$lang['settings:ga_profile']					= 'Google View ID';
+$lang['settings:ga_profile_desc']				= 'View ID for this website in Google Analytics.';
 
 $lang['settings:ga_tracking']					= 'Google Tracking Code';
 $lang['settings:ga_tracking_desc']				= 'Enter your Google Analytic Tracking Code to activate Google Analytics view data capturing. E.g: UA-19483569-6';

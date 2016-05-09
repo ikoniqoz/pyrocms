@@ -81,14 +81,14 @@ $lang['settings:rss_feed_items_desc']			= 'ต้องการจะแสด�
 $lang['settings:enable_profiles']				= 'เปิดใช้งานโปรไฟล์';
 $lang['settings:enable_profiles_desc']			= 'อนุญาตให้ผู้ใช้เพิ่มและแก้ไขโปรไฟล์ได้';
 
-$lang['settings:ga_email']						= 'อีเมลของ Google Analytic';
-$lang['settings:ga_email_desc']					= 'อีเมลของ Google Analytics, ต้องป้อนอีเมลเข้าไปด้วยหากต้องการให้แสดงในแผงควบคุม';
+$lang['settings:ga_email']					= 'Google API Service Account E-mail';
+$lang['settings:ga_email_desc']					= 'API Service Account E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
 
-$lang['settings:ga_password']					= 'รหัสผ่านของ Google Analytic';
-$lang['settings:ga_password_desc']				= 'รหัสผ่านของ Google Analytics, ต้องป้อนรหัสผ่านเข้าไปด้วยหากต้องการให้แสดงในแผงควบคุม';
+$lang['settings:ga_password']					= 'Google API Key Path';
+$lang['settings:ga_password_desc']				= 'Google API Key. This is also needed to show the graph on the dashboard. You will need to login to your Google Developers Console, and obtain a .p12 key file. Refer to <a href="https://github.com/pyrocms/pyrocms/issues/3491" target="_blank">This Issue for details</a>';
 
-$lang['settings:ga_profile']					= 'โปรไฟล์ของ Google Analytic';
-$lang['settings:ga_profile_desc']				= 'Profile IDสำหรับเว็บไซต์นี้ใน Google Analytic';
+$lang['settings:ga_profile']					= 'Google View ID';
+$lang['settings:ga_profile_desc']				= 'View ID for this website in Google Analytics.';
 
 $lang['settings:ga_tracking']					= 'Google Tracking Code';
 $lang['settings:ga_tracking_desc']				= 'ป้อน Google Analytic Tracking Code ของคุณเพื่อปิดใช้งานการดึงข้อมูล เช่น: UA-19483569-6';

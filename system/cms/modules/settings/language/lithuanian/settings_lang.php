@@ -70,14 +70,14 @@ $lang['settings:rss_feed_items_desc']            = 'Kiek įrašu turime rodyti R
 $lang['settings:enable_profiles']                = 'Ijungti profilius?';
 $lang['settings:enable_profiles_desc']            = 'Leidžia vartotojams kurti bei tvarkyti profilius.';
 
-$lang['settings:ga_email']                        = 'Google Analytic el. paštas';
-$lang['settings:ga_email_desc']                    = 'El. paštas naudojamas Google Analytics, reikalinga tam kad parodyti grafikėli įrankių skyde.';
+$lang['settings:ga_email']					= 'Google API Service Account E-mail';
+$lang['settings:ga_email_desc']					= 'API Service Account E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
 
-$lang['settings:ga_password']                    = 'Google Analytic slaptažodis';
-$lang['settings:ga_password_desc']                = 'Google Analytics slaptažodis. Taip pat reikalinga tam kad parodyti grafikėli įrankių skyde.';
+$lang['settings:ga_password']					= 'Google API Key Path';
+$lang['settings:ga_password_desc']				= 'Google API Key. This is also needed to show the graph on the dashboard. You will need to login to your Google Developers Console, and obtain a .p12 key file. Refer to <a href="https://github.com/pyrocms/pyrocms/issues/3491" target="_blank">This Issue for details</a>';
 
-$lang['settings:ga_profile']                    = 'Google Analytic profilis';
-$lang['settings:ga_profile_desc']                = 'Profilio ID šitam puslapiui Google Analytics.';
+$lang['settings:ga_profile']					= 'Google View ID';
+$lang['settings:ga_profile_desc']				= 'View ID for this website in Google Analytics.';
 
 $lang['settings:ga_tracking']                    = 'Google Tracking kodas';
 $lang['settings:ga_tracking_desc']                = 'Irašykite Google Analytic Tracking Code kad aktyvuotumėte Google Analytics peržiųrų skaičiavima. Pvz: UA-19483569-6';

@@ -71,14 +71,14 @@ $lang['settings:rss_feed_items_desc']			= 'چه تعدادی فید باید ب�
 $lang['settings:enable_profiles']				= 'فعال کردن پروفایل ها';
 $lang['settings:enable_profiles_desc']			= 'اجازه برای کاربران برای استفاده و ویرایش پروفایل ها';
 
-$lang['settings:ga_email']					= 'ایمیل متصل بهGoogle Analytics ';
-$lang['settings:ga_email_desc']				= 'ایمیلی که برای اکانت Google Analytics استفاده می کنید را اینجا وارد کنید تا در صفحه داشبوردنمودارد استفاده از سایت را مشاهده کنید';
+$lang['settings:ga_email']					= 'Google API Service Account E-mail';
+$lang['settings:ga_email_desc']					= 'API Service Account E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
 
-$lang['settings:ga_password']				= 'پسورد Google Analytics';
-$lang['settings:ga_password_desc']			= 'پسورد  Google Analytics برای ایجاد دسترسی به <a href="https://accounts.google.com/b/0/IssuedAuthSubTokens?hl=en_US" target="_blank">Authorized Access to your Google Account</a> مراجعه نمایید.';
+$lang['settings:ga_password']					= 'Google API Key Path';
+$lang['settings:ga_password_desc']				= 'Google API Key. This is also needed to show the graph on the dashboard. You will need to login to your Google Developers Console, and obtain a .p12 key file. Refer to <a href="https://github.com/pyrocms/pyrocms/issues/3491" target="_blank">This Issue for details</a>';
 
-$lang['settings:ga_profile']				= 'پروفایل Google Analytic';
-$lang['settings:ga_profile_desc']				= 'Profile ID شما در گوگل آنالیتیک. مثلا شما"pXXXXXXXX" را مشاهده می کنید که <em>XXXXXXXX</em>  آی دی شما خواهد بود.   ';
+$lang['settings:ga_profile']					= 'Google View ID';
+$lang['settings:ga_profile_desc']				= 'View ID for this website in Google Analytics.';
 
 $lang['settings:ga_tracking']				= 'Google Tracking Code';
 $lang['settings:ga_tracking_desc']				= 'کد گوگل خود را اینجا وارد کنید به عنوان مثال UA-19483569-6';

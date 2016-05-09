@@ -71,14 +71,14 @@ $lang['settings:rss_feed_items_desc'] 			= '在 RSS/blog feeds 中所顯示的�
 $lang['settings:enable_profiles'] 				= '啟用個人簡介';
 $lang['settings:enable_profiles_desc'] 			= '讓用戶能夠編輯自己的個人簡介。';
 
-$lang['settings:ga_email'] 						= 'Google Analytic E-mail';
-$lang['settings:ga_email_desc']					= '申請 Google Analytics 的電子郵件，正確設定才能在控制台中顯示分析圖表。';
+$lang['settings:ga_email']					= 'Google API Service Account E-mail';
+$lang['settings:ga_email_desc']					= 'API Service Account E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
 
-$lang['settings:ga_password'] 					= 'Google Analytic Password';
-$lang['settings:ga_password_desc']				= 'Google Analytics 密碼，正確設定才能在控制台中顯示分析圖表。';
+$lang['settings:ga_password']					= 'Google API Key Path';
+$lang['settings:ga_password_desc']				= 'Google API Key. This is also needed to show the graph on the dashboard. You will need to login to your Google Developers Console, and obtain a .p12 key file. Refer to <a href="https://github.com/pyrocms/pyrocms/issues/3491" target="_blank">This Issue for details</a>';
 
-$lang['settings:ga_profile'] 					= 'Google Analytic Profile';
-$lang['settings:ga_profile_desc']				= 'Google Analytics 中的 Profile ID 代號。';
+$lang['settings:ga_profile']					= 'Google View ID';
+$lang['settings:ga_profile_desc']				= 'View ID for this website in Google Analytics.';
 
 $lang['settings:ga_tracking'] 					= 'Google 網站追蹤碼';
 $lang['settings:ga_tracking_desc']				= '請輸入您的 Tracking Code 來啟用 Google Analytics 的資料讀取。例如：UA-19483569-6';
