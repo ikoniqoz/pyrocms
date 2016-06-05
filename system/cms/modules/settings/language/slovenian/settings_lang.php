@@ -71,14 +71,14 @@ $lang['settings:rss_feed_items_desc']			= 'Koliko prispevkov želite da se prika
 $lang['settings:enable_profiles']				= 'Omogoči profile';
 $lang['settings:enable_profiles_desc']			= 'Dovoli uporabnikom dodajanje n urejanje profila.';
 
-$lang['settings:ga_email']					= 'Google API Service Account E-mail';
-$lang['settings:ga_email_desc']					= 'API Service Account E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
+$lang['settings:ga_email']						= 'Google Analytic E-mail';
+$lang['settings:ga_email_desc']					= 'Email naslov ki ga uporabljate pri Google Analytics,to je potrebo za prikaz grafa na namizju.';
 
-$lang['settings:ga_password']					= 'Google API Key Path';
-$lang['settings:ga_password_desc']				= 'Google API Key. This is also needed to show the graph on the dashboard. You will need to login to your Google Developers Console, and obtain a .p12 key file. Refer to <a href="https://github.com/pyrocms/pyrocms/issues/3491" target="_blank">This Issue for details</a>';
+$lang['settings:ga_password']					= 'Google Analytic Geslo';
+$lang['settings:ga_password_desc']				= 'Google Analytics geslo. Za prikaz grafa obiska na namizju.';
 
-$lang['settings:ga_profile']					= 'Google View ID';
-$lang['settings:ga_profile_desc']				= 'View ID for this website in Google Analytics.';
+$lang['settings:ga_profile']					= 'Google Analytic Profil';
+$lang['settings:ga_profile_desc']				= 'ID prifila za to stran v Google Analytics.';
 
 $lang['settings:ga_tracking']					= 'Google Tracking Code (koda sledenja)';
 $lang['settings:ga_tracking_desc']				= 'Vnesite Google Analytic kodo sledenja za ogled obiska strani na namizju Npr: UA-19483569-6';

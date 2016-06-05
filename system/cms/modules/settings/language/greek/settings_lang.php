@@ -71,14 +71,14 @@ $lang['settings:rss_feed_items_desc']		= 'Πόσα στοιχεία πρέπει
 $lang['settings:enable_profiles']		= 'Ενεργοποίηση των προφίλ';
 $lang['settings:enable_profiles_desc']		= 'Να επιτρέπεται στους χρήστες να προσθέτουν και να επεξεργάζονται τα προφίλ τους.';
 
-$lang['settings:ga_email']					= 'Google API Service Account E-mail';
-$lang['settings:ga_email_desc']					= 'API Service Account E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
+$lang['settings:ga_email']			= ' E-mail Google Analytic';
+$lang['settings:ga_email_desc']			= 'Η διεύθυνση e-mail που χρησιμοποιείτε για το Google Analytics, αυτό χρειάζεται για να εμφανίζεται το γράφημα στην Επισκόπηση.';
 
-$lang['settings:ga_password']					= 'Google API Key Path';
-$lang['settings:ga_password_desc']				= 'Google API Key. This is also needed to show the graph on the dashboard. You will need to login to your Google Developers Console, and obtain a .p12 key file. Refer to <a href="https://github.com/pyrocms/pyrocms/issues/3491" target="_blank">This Issue for details</a>';
+$lang['settings:ga_password']			= 'Συνθηματικό Google Analytic';
+$lang['settings:ga_password_desc']		= 'Το συνθηματικό του Google Analytics. Και αυτό χρειάζεται για να εμφανίζεται το γράφημα στην Επισκόπηση.';
 
-$lang['settings:ga_profile']					= 'Google View ID';
-$lang['settings:ga_profile_desc']				= 'View ID for this website in Google Analytics.';
+$lang['settings:ga_profile']			= 'Προφίλ Google Analytic';
+$lang['settings:ga_profile_desc']		= 'Το ID του προφίλ του Google Analytics για αυτό τον ιστότοπο.';
 
 $lang['settings:ga_tracking']			= 'Google Tracking Code';
 $lang['settings:ga_tracking_desc']		= 'Εισάγεται τον Google Analytic Tracking Code σας για να ενεργοποιήσετε την καταγραφή επισκέψεων μέσω του Google Analytics. Π.χ.: UA-19483569-6';

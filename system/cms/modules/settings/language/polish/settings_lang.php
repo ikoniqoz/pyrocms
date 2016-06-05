@@ -71,14 +71,14 @@ $lang['settings:rss_feed_items_desc']				= 'Ile elementów należy pokazać w ka
 $lang['settings:enable_profiles']				= 'Włącz profile';
 $lang['settings:enable_profiles_desc']				= 'Pozwól użytkownikom na dodawanie i edycję profili.';
 
-$lang['settings:ga_email']					= 'Google API Service Account E-mail';
-$lang['settings:ga_email_desc']					= 'API Service Account E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
+$lang['settings:ga_email']					= 'E-mail Google Analytics';
+$lang['settings:ga_email_desc']					= 'Podaj adres e-mail, który używasz do logowania się na konto Google Analytics, wymagane do przedstawiania statystyk w Kokpicie';
 
-$lang['settings:ga_password']					= 'Google API Key Path';
-$lang['settings:ga_password_desc']				= 'Google API Key. This is also needed to show the graph on the dashboard. You will need to login to your Google Developers Console, and obtain a .p12 key file. Refer to <a href="https://github.com/pyrocms/pyrocms/issues/3491" target="_blank">This Issue for details</a>';
+$lang['settings:ga_password']					= 'Hasło Google Analytics';
+$lang['settings:ga_password_desc']				= 'Podaj hasło, które używasz do logowania się na konto Google Analytics, również wymagane do przedstawiania statystyk w Kokpicie';
 
-$lang['settings:ga_profile']					= 'Google View ID';
-$lang['settings:ga_profile_desc']				= 'View ID for this website in Google Analytics.';
+$lang['settings:ga_profile']					= 'Profil Google Analytics';
+$lang['settings:ga_profile_desc']				= 'Podaj ID profilu Google Analytics aby aktywować statystyki serwisu. Przykład: UA-19483569-6';
 
 $lang['settings:ga_tracking'] 					= 'Kod śledzenia Google';
 $lang['settings:ga_tracking_desc']				= 'Podaj swój kod śledzenia Google Analytics aby aktywować śledzenie odsłon serwisu. Przykład: UA-19483569-6';

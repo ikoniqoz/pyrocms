@@ -56,16 +56,12 @@ $lang['settings:rss_feed_items'] = 'Antal RSS objekt';
 $lang['settings:rss_feed_items_desc'] = 'Hur många objekt ska visas i RSS/blogg.';
 $lang['settings:enable_profiles'] = 'Aktivera användardata';
 $lang['settings:enable_profiles_desc'] = 'Tillåt användare att lägga till och ändra sina uppgifter.';
-
-$lang['settings:ga_email'] = 'Google API Service Account E-mail';
-$lang['settings:ga_email_desc']	= 'API Service Account E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
-
-$lang['settings:ga_password'] = 'Google API Key Path';
-$lang['settings:ga_password_desc'] = 'Google API Key. This is also needed to show the graph on the dashboard. You will need to login to your Google Developers Console, and obtain a .p12 key file. Refer to <a href="https://github.com/pyrocms/pyrocms/issues/3491" target="_blank">This Issue for details</a>';
-
-$lang['settings:ga_profile'] = 'Google View ID';
-$lang['settings:ga_profile_desc'] = 'View ID for this website in Google Analytics.';
-
+$lang['settings:ga_email'] = 'Google Analytic e-post';
+$lang['settings:ga_email_desc'] = 'E-post som används av Google Analytics, detta behövs för att visa statistik på förstasidan i kontrollpanelen.';
+$lang['settings:ga_password'] = 'Google Analytic lösenord';
+$lang['settings:ga_password_desc'] = 'Google Analytic lösenord behövs för att visa statistik på förstasidan i kontrollpanelen.';
+$lang['settings:ga_profile'] = 'Google Analytic Profil';
+$lang['settings:ga_profile_desc'] = 'Profil ID för webbplatsen i Google Analytics.';
 $lang['settings:ga_tracking'] = 'Google Tracking Code';
 $lang['settings:ga_tracking_desc'] = 'Ange din "Google Analytic Tracking Code" för att aktivera Google Analytics åtkomst. Ex.: UA-19483569-6';
 $lang['settings:akismet_api_key'] = 'Akismet API Nyckel';

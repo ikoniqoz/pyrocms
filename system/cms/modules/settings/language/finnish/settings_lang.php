@@ -78,14 +78,14 @@ $lang['settings:rss_feed_items_desc']			= 'Monta artikkelia haluat näyttää RS
 $lang['settings:enable_profiles']				= 'Profiili ominaisuus';
 $lang['settings:enable_profiles_desc']			= 'Anna käyttäjille mahdollisuus muokata profiilia.';
 
-$lang['settings:ga_email']					= 'Google API Service Account E-mail';
-$lang['settings:ga_email_desc']					= 'API Service Account E-mail address used for Google Analytics, we need this to show the graph on the dashboard.';
+$lang['settings:ga_email']						= 'Google Analytic sähköpostiosoite';
+$lang['settings:ga_email_desc']					= 'Sähköpostiosoitteesi, jota käytät Google Analyticsissä. Tämä vaaditaan, jos haluat nähdä statistiikat dashboardissa.';
 
-$lang['settings:ga_password']					= 'Google API Key Path';
-$lang['settings:ga_password_desc']				= 'Google API Key. This is also needed to show the graph on the dashboard. You will need to login to your Google Developers Console, and obtain a .p12 key file. Refer to <a href="https://github.com/pyrocms/pyrocms/issues/3491" target="_blank">This Issue for details</a>';
+$lang['settings:ga_password']					= 'Google Analytic salasana';
+$lang['settings:ga_password_desc']				= 'Google Analytics salasana. Tätä vaaditaan myös jos haluat nähdä statistiikat dashboardissa.';
 
-$lang['settings:ga_profile']					= 'Google View ID';
-$lang['settings:ga_profile_desc']				= 'View ID for this website in Google Analytics.';
+$lang['settings:ga_profile']					= 'Google Analytic profiili';
+$lang['settings:ga_profile_desc']				= 'Google Analyticsin profiilin ID.';
 
 $lang['settings:ga_tracking']					= 'Google Tracking koodi';
 $lang['settings:ga_tracking_desc']				= 'Syötä Google Analyticsin seuranta koodi, joka on muotoa: UA-19483569-6';
